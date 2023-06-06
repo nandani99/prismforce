@@ -3,6 +3,7 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import json
 
+#path for the input json file 
 f = open(r'C:\Users\itskr\Downloads\pf-sde-master\pf-sde-master\2-input.json')
 
 data = json.load(f)
